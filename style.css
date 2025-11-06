@@ -1,0 +1,87 @@
+@charset "utf-8" 
+;
+.overlay-text {
+    position: absolute;
+    top: 1%;
+    color: rgb(220, 15, 15);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    font-size: 50px;
+    border: radius 10px;
+    ;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 40px;
+
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: white;
+    font-size: 30px;
+    
+
+}
+
+.overlay-text4 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay-text5 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    accent-color: rgb(96, 142, 51);
+}
+
+.overlay-text6 {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+
+
+}
+
+.overlay-text7 {
+    position: absolute;
+    top: 1%;
+    left: 80%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay-text8 {
+    position: absolute;
+    top: 1%;
+    left: 90%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+
+}
+@keyframes image-animation{
+    from{transform:translateX(100px) ;}
+}
+.image-container {
+    animation-name: image-animation;
+    animation-duration: 5s;
+    
+}
+body{
+    background-color: black;
+}
