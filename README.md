@@ -8,7 +8,7 @@ Tech Stack:
 
 Features:
 
->>Responsive design
+
 
 >>Clean and modern UI
 
